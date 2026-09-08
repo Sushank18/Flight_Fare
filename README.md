@@ -67,10 +67,10 @@ RandomizedSearchCV with **4-fold cross-validation** is used to tune the Random F
 
 The best configuration recorded in the notebook is:
 
-- n_estimators = 760
-- min_samples_split = 5
-- max_features = "log2"
-- max_depth = None
+- n_estimators = 980
+- min_samples_split = 10
+- max_features = None
+- max_depth = 20
 
 6. **Model Evaluation**
 
