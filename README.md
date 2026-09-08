@@ -76,9 +76,9 @@ The best configuration recorded in the notebook is:
 
 The recorded test-set results are:
 
-R² Score : 0.8155
-Mean Absolute Error (MAE) : 1173.40
-Mean Absolute Percentage Error (MAPE) : 13.42%
+- R² Score : 0.8388
+- Mean Absolute Error (MAE) : 1127.63
+- Mean Absolute Percentage Error (MAPE) : 13.07%
 
 These values are from the executed notebook cells in the repository and may change if the data, preprocessing, random state, or model configuration is changed.
 
@@ -88,25 +88,14 @@ The Random Forest analysis in the notebook shows the following features among th
 
 Feature : Importance
 
-Total Stops : 0.4479
-Airline : 0.1712
-Journey Day : 0.1114
-Journey Month : 0.0724
-Duration Hour : 0.0319
+- Total Stops : 0.4479
+- Airline : 0.1712
+- Journey Day : 0.1114
+- Journey Month : 0.0724
+- Duration Hour : 0.0319
 
 **Total_Stops** is the most important feature in the recorded feature-importance output.
 
-## Repository Structure
-
-Flight_Fare/
-│
-├── flight_fare.ipynb      # Complete ML workflow and analysis
-├── Data_Train.xlsx        # Training dataset
-├── Test_set.xlsx          # Test dataset
-├── rd_random.pkl          # Serialized trained Random Forest model
-├── req.txt                # Python dependencies
-├── README.md              # Project documentation
-└── Flight_Fare/           # Project directory
 
 ## Technologies Used
 
@@ -132,7 +121,7 @@ The notebook also demonstrates loading the serialized model and generating predi
 
 ## Results
 
-The final recorded model achieves an **R² score** of approximately **0.816** on the held-out test data, with an **MAE** of approximately **1173** and **MAPE** of approximately **13.42%**.
+The final recorded model achieves an **R² score** of approximately **0.8388** on the held-out test data, with an **MAE** of approximately **1127.63** and **MAPE** of approximately **13.07%**.
 
 The project therefore demonstrates a complete practical regression workflow from raw flight data to a trained and serialized machine learning model.
 
